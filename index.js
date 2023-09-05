@@ -11,10 +11,10 @@ http
     //   if (err) return err;
     //   console.log("Wrote!!!!!!!!!!");
     // });
-    fs.unlink("./sample.txt", function (err) {
-      if (err) return err;
-      console.log("Deleted");
-    });
+    // fs.unlink("./sample.txt", function (err) {
+    //   if (err) return err;
+    //   console.log("Deleted");
+    // });
     res.end();
   })
   .listen(8080);
